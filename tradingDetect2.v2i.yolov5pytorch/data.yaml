@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['tradeLong', 'tradeShort']
+
+roboflow:
+  workspace: objdetection-iu4dr
+  project: tradingdetect2
+  version: 2
+  license: MIT
+  url: https://universe.roboflow.com/objdetection-iu4dr/tradingdetect2/dataset/2
